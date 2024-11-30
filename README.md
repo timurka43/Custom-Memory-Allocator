@@ -14,7 +14,7 @@ This project shows an implementation of a custom memory allocator that closely r
 
 ## Contributions
 ### Personal Contributions:
-  * I implemented the core memory allocator logic with fixed-size blocks of memory, including managing memory pages
+  * I implemented the core memory allocator logic with fixed-size blocks of memory
   * I fine-tuned the implementation of pointer arithmetic, including addition and subtraction on pointers, as well as modulus operations
         * Since malloc() and free() calls aren't available to us in this project, I manipulated pointers mathematically to access free blocks available for allocations
         * I also used modulus operations on pointers to access the first memory block in the current page to access its magic number, thus figuring out whether the memory block was allocated using the custom malloc() function.
