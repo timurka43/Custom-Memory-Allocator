@@ -25,7 +25,7 @@ This project shows an implementation of a custom memory allocator that closely r
 
 
 ## Acknowledgments
-I would like to thank professor Curtsinger for providing the initial framework and for guiding us through the process of building a custom memory allocator from scratch, as well as allowing me to display this project online.
+I would like to thank professor Curtsinger for providing the initial framework and for guiding us through the process of building a custom memory allocator from scratch
 
 ## License
 This project is licensed under the MIT License
